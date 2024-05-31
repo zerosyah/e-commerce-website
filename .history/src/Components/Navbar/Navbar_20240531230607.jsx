@@ -14,10 +14,10 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={()=>{setMenu("shop")}}>Shop{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("mens");}}>Menu{menu==="mens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("womens");}}>Women{menu==="womens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("kids");}}>Kids{menu==="kids"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("shop")}}>Shop<hr/></li>
+        <li onClick={()=>{setMenu("men");}}>Men</li>
+        <li onClick={()=>{setMenu("women");}}>Women</li>
+        <li onClick={()=>{setMenu("kids");}}>Kids</li>
       </ul>
       <div className="nav-login-cart">
         <button>Login</button>
