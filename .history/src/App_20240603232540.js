@@ -13,9 +13,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Shop />} />
-          <Route path="/mens" element={<ShopCategory category="mens" />} />
-          <Route path="/womens" element={<ShopCategory category="womens" />} />
-          <Route path="/kids" element={<ShopCategory category="kids" />} />
+          <Route path="/mens" element={<ShopCategory />} />
+          <Route path="/womens" element={<ShopCategory />} />
+          <Route path="/womens" element={<ShopCategory />} />
         </Routes>
       </BrowserRouter>
     </div>
