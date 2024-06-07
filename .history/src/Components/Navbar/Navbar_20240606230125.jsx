@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
 
 import "./Navbar.css";
 
@@ -25,10 +23,10 @@ const Navbar = () => {
           <Link to='/mens'>Menu</Link> {menu === "mens" ? <hr /> : null}
         </li>
         <li onClick={() => setMenu("womens")}>
-          <Link to='/womens'>Women</Link> {menu === "womens" ? <hr /> : null}
+          <Link to ='/womens'>Women</Link> {menu === "womens" ? <hr /> : null}
         </li>
         <li onClick={() => setMenu("kids")}>
-          <Link to= '/kids'>Kids</Link> {menu === "kids" ? <hr /> : null}
+          <Link to = '/kids'>Kids</Link> {menu === "kids" ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">

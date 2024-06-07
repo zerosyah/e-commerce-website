@@ -1,4 +1,3 @@
-import React from 'react';
 import "./App.css";
 import App from "./App";
 import Navbar from "./Components/Navbar/Navbar";
@@ -21,7 +20,7 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />
-          <Route path="/login" element={<LoginSignUp/>} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

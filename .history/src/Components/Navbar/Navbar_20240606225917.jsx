@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
 
 import "./Navbar.css";
 
@@ -19,16 +17,16 @@ const Navbar = () => {
       </div>
       <ul className="nav-menu">
         <li onClick={() => setMenu("shop")}>
-          <Link to='/'>Shop</Link> {menu === "shop" ? <hr /> : null}
+          <Link to ='/'>Shop</Link> {menu === "shop" ? <hr /> : null}
         </li>
         <li onClick={() => setMenu("mens")}>
-          <Link to='/mens'>Menu</Link> {menu === "mens" ? <hr /> : null}
+          <Link to ='/mens'>Menu</Link>Menu {menu === "mens" ? <hr /> : null}
         </li>
         <li onClick={() => setMenu("womens")}>
-          <Link to='/womens'>Women</Link> {menu === "womens" ? <hr /> : null}
+          <Link to ='/womens'></Link>Women {menu === "womens" ? <hr /> : null}
         </li>
         <li onClick={() => setMenu("kids")}>
-          <Link to= '/kids'>Kids</Link> {menu === "kids" ? <hr /> : null}
+          <Link to = ''></Link>Kids {menu === "kids" ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">
