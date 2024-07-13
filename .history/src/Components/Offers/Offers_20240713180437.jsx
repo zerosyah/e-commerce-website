@@ -1,6 +1,6 @@
 import React from 'react'
 import './Offers.css'
-import exclusive_image from '../Assets/exclusive_image.png'
+import exclusive_image from '..exclusive_image.png'
  
 const Offers = () => {
     return (
@@ -22,4 +22,4 @@ const Offers = () => {
 }
 
 
-export default Offers;
+export default Offers
