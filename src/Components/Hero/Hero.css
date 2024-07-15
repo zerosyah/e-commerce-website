@@ -58,3 +58,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero-right img {
+  position: relative;
+  top: 20px;
+  scale: 0.9;
+}
